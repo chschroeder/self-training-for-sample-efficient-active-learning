@@ -1,0 +1,19 @@
+dependency-injector>=4.0,<5.0
+mlflow
+jsonargparse==3.16.1
+datasets>2.9.0
+transformers==4.29.2
+tokenizers<0.14
+huggingface_hub==0.23.2
+git+https://github.com/webis-de/small-text.git@f9be17a0d37eb630414dc92f2c528ffa52b09c15
+mergedeep==1.3.4
+torch==2.2.1
+numpy
+tensorboard==2.14.0
+loguru==0.6.0
+# https://github.com/pytorch/pytorch/issues/69894
+setuptools==59.5.0
+setfit==0.7.0
+hnswlib==0.7.0
+# faiss: experiments used a manually compiled 1.7.4 version
+faiss-gpu==1.7.2
